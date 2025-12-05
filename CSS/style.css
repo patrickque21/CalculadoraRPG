@@ -5,7 +5,7 @@ body {
 }
 
 html {
-    background-image: url(../img/bg.jpg);
+    background-image: url(https://i.pinimg.com/originals/ef/5e/4b/ef5e4b4d024c66b42311e337ae8ab4cc.gif);
     background-attachment: fixed;
     background-position: top center;
     background-repeat: no-repeat;
@@ -32,8 +32,8 @@ main {
 th {
     font-weight: 700;
     text-transform: uppercase;
-    color: #d1ba91;
-    background-color: #2b2720;
+    color: darkred;
+    background-color: darkorange;
     min-height: 2.5rem;
     width: auto;
     padding-top: .4rem;
@@ -43,8 +43,8 @@ th {
 }
 
 .thModificadores {
-    border: 2px solid #2b2720;
-    color: #2b2720;
+    border: 2px solid darkred;
+    color: darkorange;
     width: 4rem;
     background-color: #fde9c6;
     box-sizing: border-box
@@ -53,6 +53,8 @@ th {
 .thHabilidades,
 .thTotal,
 .thModificadores {
+    color: darkred;
+    background-color: darkorange;
     padding-top: .8rem;
     padding-bottom: .8rem;
     font-size: .8rem
@@ -65,7 +67,7 @@ th span {
 .thMenor {
     font-size: .5rem;
     line-height: .5rem;
-    color: #baa277
+    color: yellow
 }
 
 .campoTabela {
@@ -73,8 +75,8 @@ th span {
     height: 2.5rem;
     background-color: rgba(229, 210, 176, .4);
     box-sizing: border-box;
-    color: #2b2720;
-    border: 2px solid #2b2720;
+    color: darkred;
+    border: 2px solid darkred;
     text-align: center;
     line-height: 2.4rem;
     font-size: 1rem;
@@ -82,8 +84,8 @@ th span {
 }
 
 input:focus {
-    border: 2px solid #6b4c2c;
-    color: #6b4c2c;
+    border: 2px solid darkorange;
+    color: darkorange;
     outline: none
 }
 
@@ -95,10 +97,10 @@ input:focus {
     padding-top: .8rem;
     padding-bottom: .8rem;
     font-size: .8rem;
-    color: #e5d2b0 !important;
+    color: darkred !important;
     font-weight: 100;
     box-sizing: border-box;
-    background-color: #6a0015 !important
+    background-color: darkorange !important
 }
 
 .total {
